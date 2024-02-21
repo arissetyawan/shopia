@@ -103,7 +103,7 @@
                 </clipPath>
               </defs>
               </svg>
-              Products
+              Produk
               <svg
                 class="absolute right-4 top-1/2 -translate-y-1/2 fill-current"
                 width="20"
@@ -129,14 +129,14 @@
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.add-product') }}"
-                    >Add product</a
+                    >Tambah</a
                   >
                 </li>
                 <li>
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.product-list') }}"
-                    >Products list</a
+                    >Tampilkan</a
                   >
                 </li>
               </ul>
@@ -178,7 +178,7 @@
                 </clipPath>
               </defs>
               </svg>
-              Category
+              Kategori
               <svg
                 class="absolute right-4 top-1/2 -translate-y-1/2 fill-current"
                 width="20"
@@ -204,7 +204,7 @@
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.category') }}"
-                    >Category list</a
+                    >Tampilkan</a
                   >
                 </li>
               </ul>
@@ -272,7 +272,7 @@
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.brand') }}"
-                    >Brand list</a
+                    >Tampilkan</a
                   >
                 </li>
               </ul>
@@ -314,7 +314,7 @@
                 </clipPath>
               </defs>
               </svg>
-              Warehouse
+              Gudang
               <svg
                 class="absolute right-4 top-1/2 -translate-y-1/2 fill-current"
                 width="20"
@@ -340,7 +340,7 @@
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.warehouse') }}"
-                    >Warehouse list</a
+                    >Tampilkan</a
                   >
                 </li>
               </ul>
@@ -369,7 +369,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              Assign product
+              Transaksi
               <svg class="absolute right-4 top-1/2 -translate-y-1/2 fill-current" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M4.41107 6.9107C4.73651 6.58527 5.26414 6.58527 5.58958 6.9107L10.0003 11.3214L14.4111 6.91071C14.7365 6.58527 15.2641 6.58527 15.5896 6.91071C15.915 7.23614 15.915 7.76378 15.5896 8.08922L10.5896 13.0892C10.2641 13.4147 9.73651 13.4147 9.41107 13.0892L4.41107 8.08922C4.08563 7.76378 4.08563 7.23614 4.41107 6.9107Z"
@@ -385,7 +385,7 @@
                   <a
                     class="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white"
                     href="{{ route('admin.item') }}"
-                    >Product list</a
+                    >Baru</a
                   >
                 </li>
               </ul>
