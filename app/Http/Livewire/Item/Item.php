@@ -3,7 +3,7 @@
 namespace App\Http\Livewire\Item;
 use Illuminate\Support\Facades\Session;
 use Livewire\Component;
-use App\Models\user;
+use App\Models\User;
 use App\Models\Product;
 use App\Models\Brand;
 use App\Models\Categories;

@@ -184,7 +184,7 @@
                             <p class="text-black dark:text-white">@if($product->status) Active @else Inactive @endif</p>
                         </td>
                         <td class="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
-                            {!! DNS1D::getBarcodeHTML($product->id,'C128') !!}
+                            {!! DNS1D::getBarcodeHTML(strval($product->sku),'C128') !!}
 
                         </td>
                         <td class="border-b border-[#eee] py-5 px-4 dark:border-strokedark">

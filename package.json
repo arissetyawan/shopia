@@ -20,6 +20,8 @@
     "dependencies": {
         "@zxing/library": "^0.20.0",
         "apexcharts": "^3.42.0",
-        "instascan": "^1.0.0"
+        "instascan": "^1.0.0",
+        "postcss": "^8.4.35",
+        "webpack": "^4.47.0"
     }
 }
