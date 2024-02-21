@@ -167,7 +167,7 @@
                     @enderror 
                   </div>
                   @if($image)
-                    <img src="{{ asset('uploads/' . $image) }}" alt="Uploaded Image" width="200px" class="mt-5">
+                    <img src="{{ asset('storage/' . $image) }}" alt="Uploaded Image" width="200px" class="mt-5">
                   @endif
                   <button class="flex w-full justify-center rounded bg-primary p-3 font-medium text-gray mt-5" type="submit">
                     Update Product
